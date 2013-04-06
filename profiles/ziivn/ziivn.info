@@ -1,0 +1,46 @@
+name = Zii Vietnam
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Sub core modules
+dependencies[] = better_exposed_filters
+dependencies[] = ckeditor
+dependencies[] = colorbox
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = imce
+dependencies[] = libraries
+dependencies[] = multiupload_filefield_widget
+dependencies[] = multiupload_imagefield_widget
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = taxonomy_menu
+dependencies[] = views
+
+; Development tools
+;dependencies[] = devel
+
+files[] = ziivn.profile
